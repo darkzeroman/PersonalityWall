@@ -48,7 +48,7 @@ $tagarray = array('comics', 'blogs', 'news', 'radio');
 	src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript"
 	src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script type="text/javascript" src="wallbase.js"></script>
+<script type="text/javascript" src="wallbasic.js"></script>
 <script type="text/javascript" src="wallfunctions.js"></script>
 <script type="text/javascript">
 var stage_width = <?php  echo $stage_width ?> ;
@@ -66,7 +66,7 @@ $(document).ready(function () {
         showNavArrows: false,
         centerOnScroll: true,
         hideOnContentClick: true,
-        onComplete: resize
+        //onComplete: resize
     });
   
     $('#shuffleText').click(shuffle);
@@ -97,7 +97,7 @@ $(document).ready(function () {
 		<!-- Stuff for the Inline Displays -->
 		<div style="display: none;">
 			<div id="info" class="inline">
-				<p>What this stuff does: Blah blah</p>
+				<p>This can be used to represent a personality. Each item has a description and link which can be used to give more information.  <br> The generate XML page generates the xml from the imgs directory. The XML file holds the information about each item.</p>
 			</div>
 			<div id="resources" class="inline">
 				<p>
