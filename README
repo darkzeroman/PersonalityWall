@@ -1,0 +1,22 @@
+
+Description:
+This can be used to represent a personality through a gallery of images and a browsable/draggable interface.
+
+
+Quick Technical Description:
+
+Each item has a description and link which can be used to give more information. 
+The generate XML page generates the xml from the imgs directory. The XML file holds the information about each item.
+
+
+[Copied from Resources on the main page]
+Here are some of the resources I used:
+CSS Button Generator to create the buttons!
+Tutorial Zine as a base to create this page.
+Marco Kuiper's Polaroid Example helped with some rotation errors.
+W3Schools for help when my knowledge of CSS/Javascript/HTML needed a little review!
+FancyBox for the modal windows.
+SimpleXML Manual for making the XML aspects.
+JS Beautifier for help on making the code look pretty.
+
+
